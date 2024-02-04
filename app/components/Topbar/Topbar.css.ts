@@ -7,6 +7,18 @@ export const container = style({
   height: 64,
   alignItems: "center",
   padding: 8,
+  position: "fixed",
+  top: 0,
+  backgroundColor: "#f6f8fc",
+});
+
+export const SideAlignedBox = style({
+  minWidth: 238,
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "flex-start",
+  flex: 1,
 });
 
 export const iconBox = style({

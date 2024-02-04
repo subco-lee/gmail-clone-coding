@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@remix-run/css-bundle':
+    specifier: ^2.4.1
+    version: 2.4.1
   '@remix-run/node':
     specifier: ^2.4.1
     version: 2.4.1(typescript@5.3.3)
@@ -37,6 +40,9 @@ devDependencies:
   '@vanilla-extract/css':
     specifier: ^1.14.0
     version: 1.14.0
+  clsx:
+    specifier: ^2.1.0
+    version: 2.1.0
   typescript:
     specifier: ^5.1.6
     version: 5.3.3
@@ -903,6 +909,11 @@ packages:
     dev: true
     optional: true
 
+  /@remix-run/css-bundle@2.4.1:
+    resolution: {integrity: sha512-+Gl/bj8yfkVAlimbZZnTgzrrQJgnhV2xNNGc0lMXekEiDobk7DTTyonAXqrkxaRYGvMhBVwMaaDKWUE1iy4fHg==}
+    engines: {node: '>=18.0.0'}
+    dev: false
+
   /@remix-run/dev@2.4.1(@remix-run/serve@2.4.1)(typescript@5.3.3):
     resolution: {integrity: sha512-T8GLCKpZ8AX/NCJ+vyMmcTq328xo9stvDSXG2hSJx7njz4Q9sC25miQLXPRb3Lx/Sdf4YlJhWQpR6uq5pnXCZg==}
     engines: {node: '>=18.0.0'}
@@ -1561,6 +1572,11 @@ packages:
   /clone@1.0.4:
     resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
+    dev: true
+
+  /clsx@2.1.0:
+    resolution: {integrity: sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==}
+    engines: {node: '>=6'}
     dev: true
 
   /color-convert@1.9.3:

@@ -22,10 +22,9 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <Topbar />
+        <Sidebar />
         <ContentArea>
-          <Topbar />
-
-          <Sidebar />
           <Outlet />
         </ContentArea>
         <Scripts />

@@ -1,10 +1,9 @@
-import { Outlet } from "@remix-run/react";
+import * as styles from "./route.css";
 
 export default function Route() {
   return (
-    <div>
+    <div className={styles.container}>
       <h2>Mail route</h2>
-      <Outlet />
     </div>
   );
 }
